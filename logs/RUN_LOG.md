@@ -80,3 +80,43 @@ decisions stand; only their printed justifications under-explained them.
 
 ### 2026-10-21 — ms-is-swe-opt-shortlist · Mode Build sample run
 Recipe `ms-is-swe-opt-shortlist` v0.2.0 (RUNNABLE-SAMPLE; 4 TODOs open, all proposed additions outside the run). Inputs: `course/2026fa/submissions/Vrajesh-works/mode-build/postings-2026-10-21.json` (12 entries), `--as-of 2026-10-21 --opt-start 2027-01-15` (placeholder dates), 80 Days CSV sha256 `eccdee2a…6270` (30,369 rows, newest funding 2025-09-26, 390 days before the as-of date). Outputs: `mode-build/runs/shortlist-log.json`, `shortlist-report.md`, scorer `role-scores.json/.md`. Result: `3/12 scored · Apply 1 · Consider 0 · Skip 2 (skip 67%)`; 2 excluded by a human (citizenship, clearance); 1 opt-bridge-open; 2 not-in-csv; 4 no-posting network targets. `npm run ats:liveness`: 6 active, 1 expired (Intuit, HTTP 404; company not in CSV so no decision changed). **Defect:** it printed Cohere Health active, but the student opened the page ("no longer open"); Greenhouse redirects removed jobs to the board with HTTP 200. Cohere typed `dead` by a person and the run redone (first run: Apply 1 · Consider 1 · Skip 1). Engine script not changed; defect not yet reported upstream. Break attempts: dead posting → Skip/network; `--as-of` after window → all Skip; impossible date and tracked out-dir → exit 2. 17 tests pass; `npm run verify` passes. **Gate G4:** Vrajesh Mathurbhai Nasit reopened the Verkada and Motion Recruitment postings on 2026-10-21 and confirmed both live (stated in session; the program's JSON `human_gate` field is unchanged). Open: unscored dead postings are not flagged; data is 390 days old; "entry-level" unverifiable; funding not a scorer input.
+
+## 2026-10-29 — Setup exercise: personal search layer (search/)
+
+### Executive summary
+
+This is my log entry for the setup exercise that makes the job-search engine use my own record instead of a generic one. I built three files: my resume as structured data, my search profile (target role, visa timeline, locations, sponsorship), and a list of the skill gaps between my record and three real job postings. The AI drafted all three; I corrected them. I caught three errors in the resume extraction, removed one gap the AI got wrong, rewrote the gap that matters most to me, and corrected my target role after the postings I chose showed it was wrong.
+
+### Run record
+
+- **Built:** `search/resume.json` (attested), `search/profile.yml`, `search/gaps.md`. `search/private-notes.md` is gitignored, confirmed with `git check-ignore`. All files pass `node scripts/conformance.mjs`.
+- **Where this entry lives:** copied here from `logs/runs/2026fa-Priyesh-Modi-1.md` because the assignment asks for an entry in `logs/RUN_LOG.md`; the repo asks students to log under `logs/runs/`, so the entry is in both places.
+
+### Three attestation errors caught in resume.json
+
+1. Summary claimed GCP and OCI cloud experience that no job or project supports — removed.
+2. PanAgora co-op Azure Functions budget-enforcement work read as solo or led — restated as a team contribution; the $5K/month saving is marked as a team outcome.
+3. Snowflake and Oracle listed as database skills I cannot defend — removed.
+
+### Top gap
+
+G7, backend service development (designing and building APIs). My professional work is cloud/DevOps with little backend work done by me alone. Closes when a public Python/FastAPI repo (API spec, tests, database, CI/CD) has passing CI and a documented deployment.
+
+### Killed row
+
+G4, incident management and troubleshooting. The agent read the absence of the words on my resume as absence of the experience; I did this work in my PanAgora co-op (API outages, LLM quota overruns; team member, and root-cause finder on some incidents). Follow-up: a highlight was added to resume.json so the record shows it.
+
+### Corrected profile.yml fields
+
+- `visa.ead_start_date` / `opt_end_date`: the first draft treated my OPT dates as fixed; they are the dates I *requested*, not approved EAD dates. Now marked `opt_dates_status: requested`, to be replaced with the EAD card dates once issued.
+- `target_role.level` and `industry`: the first draft said new grad only, with fintech/e-commerce as primary sectors. None of my three target postings matched that (two SRE II roles asking 2+ years, one junior-to-mid; none fintech/e-commerce). Corrected to new-grad to early-career (0-3 years), fintech/e-commerce preferred, any sector except defense.
+
+### Verification check
+
+- **resume.json:** Yes — every job entry is traceable to something verifiable (offer letter, reference, or LinkedIn).
+- **profile.yml:** Visa dates are requested, not approved, and are marked that way. STEM eligibility was confirmed by my DSO by email dated 2026-10-12, recorded in the profile.
+- **gaps.md:** Every gap cites a posting fetched (Dentsply Sirona, Akamai) or pasted (Egofold) on 2026-10-29. Two postings were set aside under my own gates (Black Kite: "not eligible for visa sponsorship"; Booz Allen: "Secret clearance is required"). SOC 15-1299.08 was the agent's best match from the local O*NET file; I confirmed it. Egofold (Los Angeles) is outside my target metros, and its liveness is unchecked because it was pasted without a URL.
+
+### Gate
+
+Attestation of resume.json and review of profile.yml and gaps.md by Priyesh Modi, 2026-10-29.
