@@ -115,7 +115,7 @@ G4, incident management and troubleshooting. The agent read the absence of the w
 
 - **resume.json:** Yes — every job entry is traceable to something verifiable (offer letter, reference, or LinkedIn).
 - **profile.yml:** Visa dates are requested, not approved, and are marked that way. STEM eligibility was confirmed by my DSO by email dated 2026-10-12, recorded in the profile.
-- **gaps.md:** Every gap cites a posting fetched (Dentsply Sirona, Akamai) or pasted (Egofold) on 2026-10-29. Two postings were set aside under my own gates (Black Kite: "not eligible for visa sponsorship"; Booz Allen: "Secret clearance is required"). SOC 15-1299.08 was the agent's best match from the local O*NET file; I confirmed it. Egofold (Los Angeles) is outside my target metros, and its liveness is unchecked because it was pasted without a URL.
+- **gaps.md:** Every gap cites a posting fetched (Dentsply Sirona, Akamai) or pasted (Egofold) on 2026-10-29. Two postings were set aside under my own gates (Black Kite: "not eligible for visa sponsorship"; Booz Allen: "Secret clearance is required"). SOC 15-1299.08 was the agent's best match from the local O*NET file; I confirmed it. Egofold is listed in Culver City, CA but, by my account, the same posting is also open in San Francisco and New York (target metros; location chosen in the application); its liveness is unchecked because it was pasted without a URL.
 
 ### Gate
 

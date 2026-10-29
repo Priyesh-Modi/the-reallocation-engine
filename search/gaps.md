@@ -2,7 +2,7 @@
 
 ## Executive summary
 
-This file lists what the jobs I am targeting ask for that my verified record does not yet show. Each gap cites a real job posting or the U.S. government's occupation database, and each comes with a plan whose result someone else could check. Eight gaps were drafted; seven remain. The ones raised by more than one posting are Linux systems administration and years of experience in a reliability or platform role. One drafted gap, incident management, was removed by me because I have done that work. The postings also raised a question about my profile rather than my skills: none of the three is a new-grad role and none is fintech or e-commerce, so I widened my target profile; one posting is also outside my target cities.
+This file lists what the jobs I am targeting ask for that my verified record does not yet show. Each gap cites a real job posting or the U.S. government's occupation database, and each comes with a plan whose result someone else could check. Eight gaps were drafted; seven remain. The ones raised by more than one posting are Linux systems administration and years of experience in a reliability or platform role. One drafted gap, incident management, was removed by me because I have done that work. The postings also raised a question about my profile rather than my skills: none of the three is a new-grad role and none is fintech or e-commerce, so I widened my target profile.
 
 **Status:** agent draft, 2026-10-29, with owner edits done: one row killed (with reason), one row rewritten in my own words.
 
@@ -14,7 +14,7 @@ Three postings supplied by me. Requirements below are quoted from the postings. 
 |---|---|---|---|---|---|---|
 | P1 | Site Reliability Engineer II · Dentsply Sirona (req 84206) | Waltham, MA; in office "multiple days" | 2026-10-22 | "2-4 years of work experience in a Site Reliability Engineering/ Platform Engineering/ DevOps role or similar" | "All successful applicants must be eligible to work in the country the position is based." No sponsorship statement. | $115,000–$130,000 |
 | P2 | Site Reliability Engineer II · Akamai (job 2687) | US remote (Cambridge, MA Flexbase) | 2026-03-30 | "2+ years of experience in Site Reliability Engineering" | No sponsorship statement; requisition fields: citizenship required = No, clearance required = No | $95,000–$171,000 |
-| P3 | DevOps / Backend Engineer (Junior to Mid-Level) · Egofold (backed by Snail Inc.) | Culver City, CA; hybrid, 1–2 days onsite per week | not stated (pasted text) | "Junior to Mid-Level"; "Professional backend engineering experience" (no year count) | No sponsorship statement | $110,000–$145,000 |
+| P3 | DevOps / Backend Engineer (Junior to Mid-Level) · Egofold (backed by Snail Inc.) | Culver City, CA; also open in San Francisco and New York (location chosen in the application, per me); hybrid, 1–2 days onsite per week | not stated (pasted text) | "Junior to Mid-Level"; "Professional backend engineering experience" (no year count) | No sponsorship statement | $110,000–$145,000 |
 
 Occupation reference: O*NET-SOC **15-1299.08 Computer Systems Engineers/Architects** (local file `data/bls/compact/soc_occupation_compact.csv`; alternate titles include Cloud Engineer, Cloud Infrastructure Engineer, Cloud Platform Engineer; programming skill level 4.25, systems analysis 4.0). Agent judgment: this is the closest local SOC match for DevOps / platform / SRE titles; "DevOps" and "SRE" are not in the local alternate-title sample. Confirmed by me on 2026-10-29.
 
@@ -24,7 +24,7 @@ Postings considered and set aside (they fail my profile's own rules, so their re
 
 Observations about the postings themselves (not skill gaps):
 - None of the three is a new-grad role or a fintech / e-commerce company. P1 and P2 are level II roles asking for 2+ years; P3 is junior-to-mid. My profile says new grad, fintech and e-commerce. **Resolved 2026-10-29:** profile updated to new-grad to early-career (0-3 years), with fintech / e-commerce preferred rather than required.
-- P3 is in the Los Angeles area, which is not one of my target metros.
+- P3 is listed in Culver City, CA; the same posting is also open in San Francisco and New York, both target metros, with the location chosen during the application (my account; the pasted text names only Culver City).
 - P2 was posted seven months ago; still listed with no end date, but not confirmed live.
 
 ## Gap table

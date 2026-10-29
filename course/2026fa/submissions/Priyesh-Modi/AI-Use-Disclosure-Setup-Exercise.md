@@ -6,6 +6,10 @@
 
 I used an AI coding agent to extract my resume into structured data, draft my search profile from my intake answers, and draft a gap analysis from three job postings I chose. I did the attesting and correcting: I found and fixed three errors in the resume extraction, answered every profile question myself, killed one gap the agent got wrong, rewrote the gap that matters most to me in my own words, and confirmed the visa and occupation fields. The clearest place the AI failed was a gap it raised about incident management, which I had done in my co-op but had never written down.
 
+## Tool
+
+- Claude Code (Anthropic), model Claude Opus 5.5, run in my local fork of the Reallocation Engine repository.
+
 ## What the AI did
 
 - **resume.json:** extracted my resume PDF into typed records (one per job, project, degree, certification, skill group; dates as year-month) and left fields it could not source as empty rather than guessing.
