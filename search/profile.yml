@@ -1,0 +1,70 @@
+# Priyesh Modi — personal search profile (real data).
+# Drafted by the agent on 2026-10-29 from the owner's intake answers; reviewed and corrected by the owner 2026-10-29.
+candidate:
+  name: Priyesh Modi
+  location: Boston, MA
+target_role:
+  primary: DevOps Engineer
+  secondary:
+    - Platform Engineer
+    - Site Reliability Engineer
+    - Cloud Engineer
+  description: >-
+    DevOps / platform / SRE / cloud engineering roles, new-grad to early-career (0-3 years),
+    at FAANG and other large tech companies or Series B+ startups. Fintech and e-commerce
+    preferred, not required; any sector except defense.
+  level: new grad to early career (0-3 years)   # corrected 2026-10-29: target postings were SRE II / junior-mid, not new-grad only
+  soc: 15-1299.08      # agent-proposed from local O*NET file (Computer Systems Engineers/Architects; alt titles Cloud Engineer, Cloud Platform Engineer); confirmed by owner 2026-10-29
+  excluded:
+    - defense / any role requiring U.S. citizenship or a security clearance
+visa:
+  type: F-1
+  current_status: "F-1 student; post-completion OPT not yet started"
+  needs_sponsorship: true
+  opt_dates_status: requested     # NOT yet approved; replace with the EAD card dates once issued
+  ead_start_date: 2027-01-20      # requested OPT start, not an approved EAD date
+  opt_end_date: 2028-01-19        # requested OPT end, not an approved EAD date
+  unemployment_days_used: 0       # OPT has not started, so no days used yet
+  unemployment_days_as_of: 2026-10-29
+  unemployment_ceiling: 90        # initial post-completion OPT; STEM extension would add 60 (150 total)
+  buffer_target: 10               # be employed by unemployment day 80 = 10 days below the 90-day ceiling (confirmed by owner 2026-10-29)
+  stem_eligible: true             # STEM-designated MS; owner reports DSO confirmed eligibility
+  stem_eligibility_confirmed_by: DSO (email)
+  stem_eligibility_confirmed_date: 2026-10-12   # date the DSO email was sent
+  stem_extension_starts: after initial OPT ends (2028-01-19, requested date)
+  stem_extension_file_by: 2028-01-19   # must be filed before initial OPT ends
+  needs_e_verify_employer: true   # required for the STEM OPT extension
+  notes: >-
+    The unemployment allowance, not the OPT end date, is the practical deadline. The STEM
+    extension (to be filed before 2028-01-19) requires an E-Verify employer, so a role at a
+    non-E-Verify employer cannot carry the search past the initial OPT period.
+sponsorship:
+  required: true
+  gate: true
+  rule: >-
+    A company with no H-1B sponsorship history is Skip regardless of fit.
+geography:
+  current_location: Boston, MA
+  target_metros:
+    - Boston, MA
+    - New York, NY
+    - Durham, NC
+    - Raleigh, NC
+    - Seattle, WA
+    - San Francisco Bay Area, CA
+    - Austin, TX
+    - Dallas, TX
+  open_to_remote: true
+  work_arrangement: any     # remote, hybrid, or on-site all acceptable
+  open_to_relocation: true  # willing to work in any metro listed above
+industry:
+  preferred_sectors:   # corrected 2026-10-29: was primary_sectors; none of my target postings was fintech/e-commerce
+    - fintech
+    - e-commerce
+  other_sectors_ok: true   # any sector except the hard exclusions below
+  company_types:
+    - FAANG / big tech (public)
+    - startups with strong funding
+  startup_funding_floor: Series B   # startups below Series B are out of scope
+  hard_exclusions:
+    - defense (requires U.S. citizenship, which the candidate does not have)

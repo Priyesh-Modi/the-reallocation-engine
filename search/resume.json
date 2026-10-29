@@ -1,0 +1,168 @@
+{
+  "attested": true,
+  "attested_date": "2026-10-29",
+  "attestation_note": "Three errors corrected: (1) summary claimed GCP and OCI cloud experience that no role or project supports, removed; (2) PanAgora Azure Functions budget-enforcement work read as solo/led, restated as a team contribution with the $5K/month saving marked as a team outcome; (3) Snowflake and Oracle listed as database skills I cannot defend, removed. Added 2026-10-29 after attestation, from my own account: PanAgora incident-response highlight (API outages, LLM quota overruns), previously done but never written down.",
+  "source_document": "Priyesh_DevOps (1).pdf",
+  "extracted_date": "2026-10-29",
+
+  "personal": {
+    "name": "Priyesh Modi",
+    "headline": "DevOps Engineer",
+    "location": "Boston, MA",
+    "links": { "linkedin": null, "github": null },
+    "work_authorization": null
+  },
+
+  "summary_claims": {
+    "years_experience": "2+",
+    "clouds_claimed": ["Azure", "AWS"],
+    "sectors_claimed": [
+      { "sector": "enterprise retail", "employer": "BitBlue Technology" },
+      { "sector": "fintech", "employer": "PanAgora Asset Management" }
+    ]
+  },
+
+  "experience": [
+    {
+      "id": "exp-panagora",
+      "company": "PanAgora Asset Management",
+      "title": "Platform DevOps Engineer Co-op",
+      "employment_type": "co-op",
+      "location": "Boston, MA",
+      "remote": null,
+      "start": "2026-01",
+      "end": "2026-08",
+      "technologies": ["Azure DevOps", "Packer", "Grafana", "Azure Container Apps", "Bicep", "Azure OpenAI", "Log Analytics Workspace", "Azure Automation Runbooks", "OAuth 2.0", "JWT", "TLS", "Azure API Gateway", "Azure Functions"],
+      "highlights": [
+        { "claim": "Created Packer golden images for Azure DevOps build agents with pre-installed tooling and security hardening", "metric": "provisioning time 2 h -> 10 min (90%); 50+ daily builds", "role_in_work": null },
+        { "claim": "Implemented Grafana on Azure Container Apps using Bicep to monitor Azure OpenAI and ML services' quota usage and cost via Log Analytics and Azure Runbooks", "metric": "30+ services monitored; manual reporting effort -80%", "role_in_work": null },
+        { "claim": "Implemented OAuth 2.0, JWT and TLS termination for internal APIs via Azure API Gateway", "metric": "15+ internal APIs; private networking costs -15%", "role_in_work": null },
+        { "claim": "Contributed, as part of a team, to Azure Functions for automated resource tagging and budget enforcement with threshold alerts and automated shutdowns", "metric": "$5K/month saved (team outcome)", "role_in_work": "team member, not lead" },
+        { "claim": "Collaborated with SRE, Quant Research and ML teams to align infrastructure requirements with deployment SLAs", "metric": "delivery consistency +40%", "role_in_work": null },
+        { "claim": "Took part in incident response and troubleshooting for internal API outages and Azure OpenAI / LLM quota overruns; on some incidents identified the root cause", "metric": null, "role_in_work": "incident team member; root-cause finder on some incidents" }
+      ],
+      "verification": { "source": null, "notes": null }
+    },
+    {
+      "id": "exp-bitblue",
+      "company": "BitBlue Technology",
+      "title": "DevOps Engineer",
+      "employment_type": "full-time",
+      "location": "Mumbai, India",
+      "remote": null,
+      "start": "2023-08",
+      "end": "2024-08",
+      "technologies": ["Jenkins", "GitHub Actions", ".NET", "Python", "AWS", "Kubernetes", "Terraform", "Packer", "PowerShell", "Bash"],
+      "highlights": [
+        { "claim": "Built end-to-end CI/CD pipelines with Jenkins and GitHub Actions for .NET and Python production apps on hybrid AWS infrastructure, with automated testing and security scanning", "metric": "12+ apps; deployment time -40%; 99.9% reliability", "role_in_work": null },
+        { "claim": "Orchestrated Kubernetes clusters running containerized microservices with automated rollouts, health checks and horizontal pod autoscaling", "metric": "8+ microservices; 99.9% uptime", "role_in_work": null },
+        { "claim": "Provisioned AWS infrastructure with Terraform and Packer, version-controlled, with automated security compliance checks", "metric": "configuration drift -85%; one-click environment replication", "role_in_work": null },
+        { "claim": "Automated monitoring, log aggregation and alerting workflows with PowerShell and Bash scripts", "metric": "50+ cloud resources; 30 h/week manual work eliminated", "role_in_work": null }
+      ],
+      "verification": { "source": null, "notes": null }
+    },
+    {
+      "id": "exp-epicure",
+      "company": "Epicure Technologies",
+      "title": "DevOps Engineer Intern",
+      "employment_type": "internship",
+      "location": "Bengaluru, India",
+      "remote": true,
+      "start": "2023-01",
+      "end": "2023-05",
+      "technologies": ["AWS S3", "AWS RDS", "AWS Lambda", "GitHub Actions", "Prometheus", "Grafana"],
+      "highlights": [
+        { "claim": "Deployed infrastructure integrating S3, RDS and Lambda with automated provisioning scripts and IaC templates, with error handling and retries", "metric": "25,000+ transactions processed", "role_in_work": null },
+        { "claim": "Established GitHub Actions CI/CD pipelines (build, test, security scan, deploy) with blue-green deployment and automated rollback", "metric": "5+ application modules; zero-downtime releases", "role_in_work": null },
+        { "claim": "Configured Prometheus and Grafana dashboards for system metrics, API performance and error rates with alerting", "metric": "incident response time -50%", "role_in_work": null }
+      ],
+      "verification": { "source": null, "notes": null }
+    }
+  ],
+
+  "projects": [
+    {
+      "id": "proj-hybrid-cloud",
+      "name": "Hybrid Cloud Infrastructure with Terraform & Azure Integration",
+      "context": null,
+      "start": null,
+      "end": null,
+      "team_size": null,
+      "role_in_work": null,
+      "technologies": ["Terraform", "Packer", "Azure Bicep", "AWS VPC", "Azure VNet", "AWS RDS", "Route 53", "SSL/TLS certificates", "AWS Lambda", "AWS SNS", "Azure Functions", "SendGrid", "EC2 Auto Scaling", "Elastic Load Balancing"],
+      "highlights": [
+        { "claim": "Architected multi-cloud AWS + Azure infrastructure with Terraform, Packer and Bicep (VPCs, VNets, RDS, Route 53, SSL, security groups)", "metric": "99.9% availability" },
+        { "claim": "Implemented event-driven automation with Lambda, SNS, Azure Functions and SendGrid for cross-cloud alerts and remediation, plus CI/CD with EC2 Auto Scaling and ELB", "metric": "deployment downtime -35%" }
+      ],
+      "link": null
+    },
+    {
+      "id": "proj-mern",
+      "name": "MERN Stack Platform with Automated Infrastructure",
+      "context": null,
+      "start": null,
+      "end": null,
+      "team_size": null,
+      "role_in_work": null,
+      "technologies": ["Node.js", "MongoDB", "Express", "React", "Docker", "Nginx", "MongoDB GridFS"],
+      "highlights": [
+        { "claim": "Led infrastructure deployment for a MERN platform with Docker, Nginx load balancing and MongoDB replication", "metric": "10,000+ user sessions; 5 concurrent business workflows; 99.5% availability" },
+        { "claim": "Configured backups, disaster recovery and monitoring for MongoDB GridFS media storage with compression and archival policies", "metric": "500+ media uploads; storage cost -30%" }
+      ],
+      "link": null
+    }
+  ],
+
+  "education": [
+    {
+      "id": "edu-neu",
+      "institution": "Northeastern University",
+      "location": "Boston, MA",
+      "degree": "Master of Science",
+      "field": "Information Systems",
+      "start": "2024-09",
+      "end": "2026-12",
+      "status": "in progress",
+      "stem_designated": true
+    },
+    {
+      "id": "edu-mumbai",
+      "institution": "University of Mumbai",
+      "location": "Mumbai, India",
+      "degree": "Bachelor of Technology",
+      "field": "Computer Science",
+      "start": "2019-08",
+      "end": "2023-05",
+      "status": "completed"
+    }
+  ],
+
+  "certifications": [
+    {
+      "id": "cert-aws-saa",
+      "name": "AWS Certified Solutions Architect – Associate",
+      "code": "SAA-C03",
+      "issuer": "Amazon Web Services",
+      "issued": null,
+      "expires": null,
+      "credential_id": null,
+      "verification_url": null
+    }
+  ],
+
+  "skills": {
+    "languages": ["Python", "C#", "PowerShell", "Bash", "SQL", "JavaScript", "Java"],
+    "cloud": {
+      "AWS": ["EC2", "S3", "Lambda", "RDS", "ECS"],
+      "Azure": ["VM", "Storage", "Batch", "Machine Learning"],
+      "GCP": []
+    },
+    "iac": ["Terraform", "Packer", "Ansible", "Azure Bicep", "CloudFormation", "Pulumi"],
+    "containers": ["Docker", "Kubernetes", "Helm", "Azure Container Instances", "AWS ECS"],
+    "ci_cd": ["Jenkins", "GitHub Actions", "Azure DevOps", "GitLab CI"],
+    "frameworks": [".NET Core", "React.js", "Node.js"],
+    "databases": ["PostgreSQL", "MySQL", "MongoDB", "Redis"],
+    "observability": ["Prometheus", "Grafana", "CloudWatch", "SolarWinds", "Splunk", "OpenTelemetry", "Log Analytics"],
+    "familiar_with_not_shipped": []
+  }
+}

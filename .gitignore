@@ -80,3 +80,8 @@ youtube/**/*.bak-*
 
 # DOL OFLC wage-data zips + full exports (fetched by scripts/contrib/2026fa/mayank-1024-wage-level-floor/fetch-oflc.sh)
 /data/dol/oflc/raw/
+search/private-notes.md
+# Setup exercise (INFO 7375): owner chose to commit the personal search layer; private-notes stays ignored
+!/search/resume.json
+!/search/profile.yml
+!/search/gaps.md
